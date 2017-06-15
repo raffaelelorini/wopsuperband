@@ -1,0 +1,39 @@
+marquee {
+  width:100%;
+  height: 19.982%;
+  font-size: 2em;
+  margin: 0;
+  font-family: 'Rap',monospace;
+  font-size: 90;
+  position: relative;
+  z-index: 1;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.titolo {
+display: flex;
+align-items: center;
+  height: 100%;
+}
+
+#facce{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  z-index: 10000;
+}
+
+#codo{
+  background-image: url('../../pic/O.png');
+width: 100px;
+}
+
+#primo{
+  background-color: lime;
+}

@@ -1,0 +1,46 @@
+body{
+    background-image: url("../images/index_wall.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
+#w{
+    text-align: center;
+    vertical-align: middle;
+    float:left;
+    display:block;
+    width:33%;
+}
+
+#o{
+    text-align: center;
+    vertical-align: middle;
+    float:left;
+    display:block;
+    width:33%;
+
+}
+
+#p{
+    text-align: center;
+    vertical-align: middle;
+    float:right;
+    display:block;
+    width:33%;
+
+}
+
+img.resized { 
+    width: auto; 
+    height: 50%; 
+}
+
+#footer{
+    text-align: center;
+    height: 10%;
+}
